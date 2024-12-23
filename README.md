@@ -25,7 +25,7 @@ Usage
     The trained model can be used to make predictions on new images or videos.
 
 Code Example
-
+```bash
 from ultralytics import YOLO
 
 # Load YOLOv8 model
@@ -36,6 +36,7 @@ model.train(data='path_to_data.yaml', epochs=50, imgsz=416, batch=8)
 
 # Evaluate the model
 metrics = model.val()
+```
 
 Features
 
