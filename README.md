@@ -12,6 +12,7 @@ To run this project, you'll need to install the necessary dependencies. You can 
 ```bash
 pip install ultralytics
 
+```
 Usage
 
     Model Training
